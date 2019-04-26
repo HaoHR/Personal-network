@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相册</title>
+	<link rel="stylesheet" type="text/css" href="css/photo.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+	<script type="text/javascript" src="js/photo.js"></script>
+</head>
+<body>
+<!-- 导航 -->
+	<div class="nav">
+		<ul>
+			<li><a href="homepage.html">首页</a></li>
+			<li class="action"><a href="photo.html">相册</a></li>
+			<li><a href="enjoyment.html">动态</a></li>
+		</ul>
+	</div>
+<!-- 加载 -->
+	<div class="load">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+<!-- 内容 -->
+	<div class='parent'>
+	    <div class='slider'>
+	        <button type="button" id='right' class='right' name="button">></button>
+	        <button type="button" id='left' class='left' name="button"><</button>
+	      <svg id='svg2' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		      <circle id='circle1' class='circle1 steap' cx="50px" cy="49%" r="20"  />
+		      <circle id='circle2' class='circle2 steap' cx="50px" cy="49%" r="100"  />
+		      <circle id='circle3' class='circle3 steap' cx="50px" cy="49%" r="180"  />
+		      <circle id='circle4' class='circle4 steap' cx="50px" cy="49%" r="260"  />
+	    </svg>
+	    <svg id='svg1' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		      <circle id='circle5' class='circle5 steap' cx="1830px" cy="49%" r="20"  />
+		      <circle id='circle6' class='circle6 steap' cx="1830px" cy="49%" r="100"  />
+		      <circle id='circle7' class='circle7 steap' cx="1830px" cy="49%" r="180"  />
+		      <circle id='circle8' class='circle8 steap' cx="1830px" cy="49%" r="260"  />
+		    </svg>
+	        <div id='slide1' class='slide1 up1'>MOUNTAIN</div>
+	        <div id='slide2' class='slide2'>BEACH</div>
+	        <div id='slide3' class='slide3'>FOREST</div>
+	        <div id='slide4' class='slide4'>DESERT</div>
+	    </div>
+	</div>
+<!-- 相册 -->
+	<div class="container">
+	  <div class="col">
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>Juno Solves 39-Year Old Mystery of Jupiter Lightning</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>Engineers Solve Excessive Heat Removal from NASA’s Webb Telescope</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>NASA Finds Ancient Organic Material, Mysterious Methane on Mars</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>  
+	  </div>  
+	  <div class="col">
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>NASA to Host Live Discussion on New Mars Science Results</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>   
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>20 Years of Earth Data Now at Your Fingertips</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>      
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	         <h4>Astronomers Spot a Distant and Lonely Neutron Star</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div> 
+	  </div>
+	  <div class="col">
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>Astronauts Safely in Orbit Following Launch to International Space Station</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div> 
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>As Solar Wind Blows, Our Heliosphere Balloons</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>  
+	    <div class="card-container">
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="overlay"></div>
+	      <div class="card">
+	        <h4>Tiny Asteroid Discovered Saturday Disintegrates Hours Later Over Southern Africa</h4>
+	        <span class"chev">›</span>
+	      </div>
+	    </div>  
+	  </div>
+	</div>
+<!-- 联系我 -->
+	<div class="contact">	
+		<div class="c-content">
+			<h1 style="margin-left:30px;height:100px">C O N T A C T M E</h1>
+			<p>House-3 Road-2, Akhalia Ghate R/A, Sylhet</p> 
+			<p>Call: 17635****42 </p>	
+			<p>E-mail: 3028009908@qq.com</p>	
+			<p>Web: www.themewagon.com</p>	
+			</p>
+			<div>
+				<input type="text" placeholder="姓名"><br>
+				<input type="text" placeholder="联系方式"><br>
+				<button>提交</button>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+		  var curpage = 1;
+		  var sliding = false;
+		  var click = true;
+		  var left = document.getElementById('left');
+		  var right = document.getElementById('right');
+		  var pagePrefix = 'slide';
+		  var pageShift = 500;
+		  var transitionPrefix = 'circle';
+		  var svg = true;
+
+		  function leftSlide() {
+		    if (click) {
+		      if (curpage == 1) curpage = 5;
+		        console.log('woek');
+		        sliding = true;
+		        curpage--;
+		        svg = true;
+		        click = false;
+		        for(k=1;k<=4;k++){
+		          var a1 = document.getElementById(pagePrefix + k);
+		          a1.className += ' tran';
+		        }
+		        setTimeout(()=>{
+		          move();
+		        },200);
+		        setTimeout(()=>{
+		          for(k=1;k<=4;k++){
+		            var a1 = document.getElementById(pagePrefix + k);
+		            a1.classList.remove('tran');
+		          };
+		        },1400);
+		      }
+		  }
+
+
+		   function rightSlide() {
+		    if (click) {
+		      if (curpage == 4) curpage = 0;
+		      console.log('woek');
+		      sliding = true;
+		      curpage++;
+		      svg = false;
+		      click = false;
+		      for(k=1;k<=4;k++){
+		        var a1 = document.getElementById(pagePrefix + k);
+		        a1.className += ' tran';
+		      }
+		      setTimeout(()=>{
+		        move();
+		      },200);
+		      setTimeout(()=>{
+		        for(k=1;k<=4;k++){
+		          var a1 = document.getElementById(pagePrefix + k);
+		          a1.classList.remove('tran');
+		        };
+		      },1400);
+		    }
+		  }
+
+
+		  function move() {
+		    if (sliding) {
+		      sliding = false;
+		      if (svg) {
+		        for (j = 1; j <= 4; j++) {
+		          var c = document.getElementById(transitionPrefix + j);
+		          c.classList.remove("steap");
+		          c.setAttribute("class", (transitionPrefix + j) + " streak")
+		          console.log('streak');
+		        }
+		      } else {
+		        for (j = 5; j <= 8; j++) {
+		          var c = document.getElementById(transitionPrefix + j);
+		          c.classList.remove("steap");
+		          c.setAttribute("class", (transitionPrefix + j) + " streak")
+		          console.log('streak');
+		        }
+		      }
+
+		      // for(k=1;k<=4;k++){
+		      //   var a1 = document.getElementById(pagePrefix + k);
+		      //   a1.className += ' tran';
+		      // }
+
+		      setTimeout(() => {
+		        for (i = 1; i <= 4; i++) {
+		          if (i == curpage) {
+		            var a = document.getElementById(pagePrefix + i);
+		            a.className += ' up1';
+		          } else {
+		            var b = document.getElementById(pagePrefix + i);
+		            b.classList.remove("up1");
+		          }
+		        };
+		        sliding = true;
+		      }, 600);
+		      setTimeout(() => {
+		        click = true;
+		      }, 1700);
+
+
+
+		      setTimeout(() => {
+		        if (svg) {
+		          for (j = 1; j <= 4; j++) {
+		            var c = document.getElementById(transitionPrefix + j);
+		            c.classList.remove("streak");
+		            c.setAttribute("class", (transitionPrefix + j) + " steap");
+		          }
+		        } else {
+		          for (j = 5; j <= 8; j++) {
+		            var c = document.getElementById(transitionPrefix + j);
+		            c.classList.remove("streak");
+		            c.setAttribute("class", (transitionPrefix + j) + " steap");
+		          }
+		          sliding = true;
+		        }
+		      }, 850);
+		      setTimeout(() => {
+		        click = true;
+		      }, 1700);
+		    }
+
+		  }
+
+		  left.onmousedown=()=>{
+		    leftSlide();
+		  }
+
+		  right.onmousedown=()=>{
+		    rightSlide();
+		  }
+
+		  document.onkeydown=(e)=>{
+		    if(e.keyCode==37){
+		      leftSlide();
+
+		    }
+		    else if (e.keyCode==39) {
+		      rightSlide();
+
+		    }
+		  }
+
+			//for codepen header
+			setTimeout(()=>{
+				      rightSlide();
+
+			},500)
+
+</script>
+</body>
+</html>
